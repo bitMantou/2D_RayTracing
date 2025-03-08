@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Jason/Desktop/School/Personal Projects/2D_RayTracing/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\gcc.exe -isystem C:/msys64/mingw64/include -isystem C:/msys64/mingw64/include/SDL2 -g -fdiagnostics-color=always -o CMakeFiles\\2D_RayTracing.dir\\main.c.obj -c \"C:\\Users\\Jason\\Desktop\\School\\Personal Projects\\2D_RayTracing\\main.c\"",
+  "file": "C:\\Users\\Jason\\Desktop\\School\\Personal Projects\\2D_RayTracing\\main.c",
+  "output": "CMakeFiles\\2D_RayTracing.dir\\main.c.obj"
+}
+]
