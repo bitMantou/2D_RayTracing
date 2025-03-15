@@ -47,8 +47,8 @@ void GenerateRays(struct Circle circle, struct Ray rays[NUM_OF_RAYS]) {
 
 void FillRays(SDL_Surface* surface, struct Ray rays[NUM_OF_RAYS], Uint32 color, struct Circle object) {
     double radius_squared = pow(object.r, 2);
-    double step = 1; // Finer step size for more detail
-    double max_distance = 1000; // Max distance for fading
+    double step = 1;
+    double max_distance = 1000; 
 
     for (int i = 0; i < NUM_OF_RAYS; i++) {
         struct Ray ray = rays[i];
@@ -61,7 +61,6 @@ void FillRays(SDL_Surface* surface, struct Ray rays[NUM_OF_RAYS], Uint32 color, 
             x_draw += step * cos(ray.angle);
             y_draw += step * sin(ray.angle);
 
-            // Calculate distance and intensity for fading
             double distance_squared = pow((x_draw - ray.x_start), 2) + pow((y_draw - ray.y_start), 2);
             double distance = sqrt(distance_squared);
             double intensity = 1.0 - (distance / max_distance);
@@ -75,7 +74,6 @@ void FillRays(SDL_Surface* surface, struct Ray rays[NUM_OF_RAYS], Uint32 color, 
                 end_of_screen = 1;
             }
 
-            // Check if ray hit the object
             double distance_to_object_squared = pow((x_draw - object.x), 2) + pow((y_draw - object.y), 2);
             if (distance_to_object_squared < radius_squared) {
                 break;
