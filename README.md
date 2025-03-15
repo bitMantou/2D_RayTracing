@@ -20,4 +20,3 @@ This project is a simple C program using SDL2 to simulate basic ray tracing. The
 1. Clone this repository:
    ```sh
    git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
