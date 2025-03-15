@@ -1,6 +1,5 @@
 # Ray Tracing in C
-
-![Ray Tracing Simulation](ray_tracing.gif)
+<img src="https://github.com/user-attachments/assets/4d859925-6016-4341-9c80-771b5e6e1576" width="800">
 
 ## Overview
 
