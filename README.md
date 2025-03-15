@@ -14,9 +14,3 @@ This project is a simple C program using SDL2 to simulate basic ray tracing. The
 - C compiler (e.g., `gcc`)
 - [SDL2](https://www.libsdl.org/)
 - CMake
-
-## Installation and Usage
-
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/your-repo.git
