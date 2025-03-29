@@ -115,7 +115,6 @@ int main( int argc, char* args[] ) {
         FillCircle(surface, second_circle, COLOR_WHITE);
 
         second_circle.y += obstacle_speed_y;
-        second_circle.y += obstacle_speed_y;
         if (second_circle.y - second_circle.r < 0) {
             second_circle.y = second_circle.r;
             obstacle_speed_y *= -1;
